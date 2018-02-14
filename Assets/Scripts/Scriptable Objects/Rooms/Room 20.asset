@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79cddccd9e8d1141957eb00ad433dd7, type: 3}
+  m_Name: Room 20
+  m_EditorClassIdentifier: 
+  Description: 
+  RoomName: 'Room '
+  Exits:
+  - KeyString: 10
+    ExitDescription: Room 10
+    ValueRoom: {fileID: 11400000, guid: 213c4e333301f7346bc3aa146dd7524b, type: 2}
+  - KeyString: 18
+    ExitDescription: Room 18
+    ValueRoom: {fileID: 11400000, guid: 1f1bfc3a0ce8e374992fe70962e81ef4, type: 2}
+  - KeyString: 19
+    ExitDescription: Room 19
+    ValueRoom: {fileID: 11400000, guid: 2b958e749a07bce469d104a2819e84d7, type: 2}
+  HazardsInRoom:
+  - {fileID: 0}
